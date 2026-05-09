@@ -1,4 +1,5 @@
 # Playwright SauceDemo Test Suite
+[![Playwright Tests](https://github.com/singhvishav01/playwright_saucedemo_suite/actions/workflows/playwright.yml/badge.svg)](https://github.com/singhvishav01/playwright_saucedemo_suite/actions/workflows/playwright.yml)
 
 End-to-end test automation suite for [SauceDemo](https://www.saucedemo.com), built with Playwright and TypeScript. Structured using the Page Object Model pattern to demonstrate maintainable, scalable QA engineering practices.
 
