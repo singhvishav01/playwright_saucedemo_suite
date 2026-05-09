@@ -77,3 +77,6 @@ The HTML report is uploaded as a build artifact and retained for 30 days — acc
 **Two config files** — `playwright.config.ts` is the local development config. `playwright.ci.config.ts` is used by CI and enables Firefox, sets `workers: 1`, and hardcodes `retries: 2`. Keeping them separate means local runs are fast and CI runs are thorough.
 
 **`toContain` over `toEqual` for error messages** — Error message assertions use `toContain` to target the meaningful substring rather than the exact string. This makes tests resilient to minor phrasing changes in the UI.
+
+
+Copyright (c) 2026 Vishavpreet Singh. All rights reserved. This code is shared for portfolio review purposes only. Commercial use prohibited without written permission.
